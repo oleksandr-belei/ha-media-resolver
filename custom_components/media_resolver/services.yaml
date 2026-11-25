@@ -1,0 +1,11 @@
+resolve:
+  name: Resolve media
+  description: Return a playable URL and MIME type for a Home Assistant media source.
+  fields:
+    media_content_id:
+      name: Media content ID
+      description: A media-source:// identifier for local media or text-to-speech.
+      required: true
+      example: media-source://media_source/local/intro.mp3
+      selector:
+        text:

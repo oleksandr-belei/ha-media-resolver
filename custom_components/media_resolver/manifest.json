@@ -1,0 +1,15 @@
+{
+  "domain": "media_resolver",
+  "name": "Media Resolver",
+  "codeowners": [
+    "@oleksandr-belei"
+  ],
+  "dependencies": [
+    "media_player",
+    "media_source"
+  ],
+  "documentation": "https://github.com/oleksandr-belei/ha-media-resolver#readme",
+  "integration_type": "service",
+  "issue_tracker": "https://github.com/oleksandr-belei/ha-media-resolver/issues",
+  "version": "0.1.0"
+}
